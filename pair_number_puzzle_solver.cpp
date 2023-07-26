@@ -71,8 +71,10 @@ int main(){
         calc(p,no_use,0,i);
     }
 
+    cout << "pair" << "\n";
     for(auto v : ans_set){
-        cout << v << "\n";
+        cout << "-> " << v << "\n";
     }
-    cout << ans << "\n";
+    cout << "ans" << "\n";
+    cout << "-> " <<  ans << "\n";
 }
